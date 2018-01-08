@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		667DACD220035919007C79F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 667DACD120035919007C79F1 /* AppDelegate.m */; };
+		667DACD520035919007C79F1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 667DACD420035919007C79F1 /* ViewController.m */; };
+		667DACD820035919007C79F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 667DACD620035919007C79F1 /* Main.storyboard */; };
+		667DACDA20035919007C79F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 667DACD920035919007C79F1 /* Assets.xcassets */; };
+		667DACDD20035919007C79F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 667DACDB20035919007C79F1 /* LaunchScreen.storyboard */; };
+		667DACE020035919007C79F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 667DACDF20035919007C79F1 /* main.m */; };
+		667DACEA20035919007C79F1 /* JKguideViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 667DACE920035919007C79F1 /* JKguideViewTests.m */; };
+		667DACF52003591A007C79F1 /* JKguideViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 667DACF42003591A007C79F1 /* JKguideViewUITests.m */; };
+		667DAD0420036358007C79F1 /* JKguideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 667DAD0320036358007C79F1 /* JKguideView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		667DACE620035919007C79F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 667DACC520035919007C79F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 667DACCC20035919007C79F1;
+			remoteInfo = JKguideView;
+		};
+		667DACF12003591A007C79F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 667DACC520035919007C79F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 667DACCC20035919007C79F1;
+			remoteInfo = JKguideView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		667DACCD20035919007C79F1 /* JKguideView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JKguideView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		667DACD020035919007C79F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		667DACD120035919007C79F1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		667DACD320035919007C79F1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		667DACD420035919007C79F1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		667DACD720035919007C79F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		667DACD920035919007C79F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		667DACDC20035919007C79F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		667DACDE20035919007C79F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		667DACDF20035919007C79F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		667DACE520035919007C79F1 /* JKguideViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKguideViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		667DACE920035919007C79F1 /* JKguideViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKguideViewTests.m; sourceTree = "<group>"; };
+		667DACEB20035919007C79F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		667DACF02003591A007C79F1 /* JKguideViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKguideViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		667DACF42003591A007C79F1 /* JKguideViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKguideViewUITests.m; sourceTree = "<group>"; };
+		667DACF62003591A007C79F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		667DAD0220036358007C79F1 /* JKguideView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKguideView.h; sourceTree = "<group>"; };
+		667DAD0320036358007C79F1 /* JKguideView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKguideView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		667DACCA20035919007C79F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		667DACE220035919007C79F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		667DACED2003591A007C79F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		667DACC420035919007C79F1 = {
+			isa = PBXGroup;
+			children = (
+				667DACCF20035919007C79F1 /* JKguideView */,
+				667DACE820035919007C79F1 /* JKguideViewTests */,
+				667DACF32003591A007C79F1 /* JKguideViewUITests */,
+				667DACCE20035919007C79F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		667DACCE20035919007C79F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				667DACCD20035919007C79F1 /* JKguideView.app */,
+				667DACE520035919007C79F1 /* JKguideViewTests.xctest */,
+				667DACF02003591A007C79F1 /* JKguideViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		667DACCF20035919007C79F1 /* JKguideView */ = {
+			isa = PBXGroup;
+			children = (
+				667DACD020035919007C79F1 /* AppDelegate.h */,
+				667DACD120035919007C79F1 /* AppDelegate.m */,
+				667DACD320035919007C79F1 /* ViewController.h */,
+				667DACD420035919007C79F1 /* ViewController.m */,
+				667DAD0220036358007C79F1 /* JKguideView.h */,
+				667DAD0320036358007C79F1 /* JKguideView.m */,
+				667DACD620035919007C79F1 /* Main.storyboard */,
+				667DACD920035919007C79F1 /* Assets.xcassets */,
+				667DACDB20035919007C79F1 /* LaunchScreen.storyboard */,
+				667DACDE20035919007C79F1 /* Info.plist */,
+				667DACDF20035919007C79F1 /* main.m */,
+			);
+			path = JKguideView;
+			sourceTree = "<group>";
+		};
+		667DACE820035919007C79F1 /* JKguideViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				667DACE920035919007C79F1 /* JKguideViewTests.m */,
+				667DACEB20035919007C79F1 /* Info.plist */,
+			);
+			path = JKguideViewTests;
+			sourceTree = "<group>";
+		};
+		667DACF32003591A007C79F1 /* JKguideViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				667DACF42003591A007C79F1 /* JKguideViewUITests.m */,
+				667DACF62003591A007C79F1 /* Info.plist */,
+			);
+			path = JKguideViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		667DACCC20035919007C79F1 /* JKguideView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 667DACF92003591A007C79F1 /* Build configuration list for PBXNativeTarget "JKguideView" */;
+			buildPhases = (
+				667DACC920035919007C79F1 /* Sources */,
+				667DACCA20035919007C79F1 /* Frameworks */,
+				667DACCB20035919007C79F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JKguideView;
+			productName = JKguideView;
+			productReference = 667DACCD20035919007C79F1 /* JKguideView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		667DACE420035919007C79F1 /* JKguideViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 667DACFC2003591A007C79F1 /* Build configuration list for PBXNativeTarget "JKguideViewTests" */;
+			buildPhases = (
+				667DACE120035919007C79F1 /* Sources */,
+				667DACE220035919007C79F1 /* Frameworks */,
+				667DACE320035919007C79F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				667DACE720035919007C79F1 /* PBXTargetDependency */,
+			);
+			name = JKguideViewTests;
+			productName = JKguideViewTests;
+			productReference = 667DACE520035919007C79F1 /* JKguideViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		667DACEF2003591A007C79F1 /* JKguideViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 667DACFF2003591A007C79F1 /* Build configuration list for PBXNativeTarget "JKguideViewUITests" */;
+			buildPhases = (
+				667DACEC2003591A007C79F1 /* Sources */,
+				667DACED2003591A007C79F1 /* Frameworks */,
+				667DACEE2003591A007C79F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				667DACF22003591A007C79F1 /* PBXTargetDependency */,
+			);
+			name = JKguideViewUITests;
+			productName = JKguideViewUITests;
+			productReference = 667DACF02003591A007C79F1 /* JKguideViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		667DACC520035919007C79F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JK;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "余浩";
+				TargetAttributes = {
+					667DACCC20035919007C79F1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					667DACE420035919007C79F1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 667DACCC20035919007C79F1;
+					};
+					667DACEF2003591A007C79F1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 667DACCC20035919007C79F1;
+					};
+				};
+			};
+			buildConfigurationList = 667DACC820035919007C79F1 /* Build configuration list for PBXProject "JKguideView" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 667DACC420035919007C79F1;
+			productRefGroup = 667DACCE20035919007C79F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				667DACCC20035919007C79F1 /* JKguideView */,
+				667DACE420035919007C79F1 /* JKguideViewTests */,
+				667DACEF2003591A007C79F1 /* JKguideViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		667DACCB20035919007C79F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				667DACDD20035919007C79F1 /* LaunchScreen.storyboard in Resources */,
+				667DACDA20035919007C79F1 /* Assets.xcassets in Resources */,
+				667DACD820035919007C79F1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		667DACE320035919007C79F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		667DACEE2003591A007C79F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		667DACC920035919007C79F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				667DACD520035919007C79F1 /* ViewController.m in Sources */,
+				667DACE020035919007C79F1 /* main.m in Sources */,
+				667DAD0420036358007C79F1 /* JKguideView.m in Sources */,
+				667DACD220035919007C79F1 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		667DACE120035919007C79F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				667DACEA20035919007C79F1 /* JKguideViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		667DACEC2003591A007C79F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				667DACF52003591A007C79F1 /* JKguideViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		667DACE720035919007C79F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 667DACCC20035919007C79F1 /* JKguideView */;
+			targetProxy = 667DACE620035919007C79F1 /* PBXContainerItemProxy */;
+		};
+		667DACF22003591A007C79F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 667DACCC20035919007C79F1 /* JKguideView */;
+			targetProxy = 667DACF12003591A007C79F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		667DACD620035919007C79F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				667DACD720035919007C79F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		667DACDB20035919007C79F1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				667DACDC20035919007C79F1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		667DACF72003591A007C79F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		667DACF82003591A007C79F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		667DACFA2003591A007C79F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37XKE4G644;
+				INFOPLIST_FILE = JKguideView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = changtian.JKguideView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		667DACFB2003591A007C79F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37XKE4G644;
+				INFOPLIST_FILE = JKguideView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = changtian.JKguideView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		667DACFD2003591A007C79F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37XKE4G644;
+				INFOPLIST_FILE = JKguideViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = changtian.JKguideViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JKguideView.app/JKguideView";
+			};
+			name = Debug;
+		};
+		667DACFE2003591A007C79F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37XKE4G644;
+				INFOPLIST_FILE = JKguideViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = changtian.JKguideViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JKguideView.app/JKguideView";
+			};
+			name = Release;
+		};
+		667DAD002003591A007C79F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37XKE4G644;
+				INFOPLIST_FILE = JKguideViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = changtian.JKguideViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JKguideView;
+			};
+			name = Debug;
+		};
+		667DAD012003591A007C79F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37XKE4G644;
+				INFOPLIST_FILE = JKguideViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = changtian.JKguideViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JKguideView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		667DACC820035919007C79F1 /* Build configuration list for PBXProject "JKguideView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				667DACF72003591A007C79F1 /* Debug */,
+				667DACF82003591A007C79F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		667DACF92003591A007C79F1 /* Build configuration list for PBXNativeTarget "JKguideView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				667DACFA2003591A007C79F1 /* Debug */,
+				667DACFB2003591A007C79F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		667DACFC2003591A007C79F1 /* Build configuration list for PBXNativeTarget "JKguideViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				667DACFD2003591A007C79F1 /* Debug */,
+				667DACFE2003591A007C79F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		667DACFF2003591A007C79F1 /* Build configuration list for PBXNativeTarget "JKguideViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				667DAD002003591A007C79F1 /* Debug */,
+				667DAD012003591A007C79F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 667DACC520035919007C79F1 /* Project object */;
+}
